@@ -46,9 +46,9 @@ export default function Guides() {
 
       { guides && guides.map(guide => (
         <div key={ guide.title } className={ styles.card }> 
+          <h3> { guide.title } </h3>
           <hr></hr>
           <br></br>
-          <h3> { guide.title } </h3>
           <h6> Written By: { guide.author } </h6>
           <p> Lorem ipsum dolor sit amet consectetur adipiscing eit. veniam, impedit! Quas officia temporibus itagque eius consequutur qudien ut aperiam, nam</p>
          
